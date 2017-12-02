@@ -1,5 +1,7 @@
 const l = console.log
 
+const makeList = input => Array.from(input).map(Number)
+
 const listMatcher = list => {
   let acc = 0
   let last = list.length - 1
@@ -14,8 +16,6 @@ const listMatcher = list => {
 
   return acc
 }
-
-const makeList = input => Array.from(input).map(Number)
 
 const diametricMatcher = list => {
   let acc = 0
