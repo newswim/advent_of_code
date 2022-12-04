@@ -1,4 +1,4 @@
-import { input } from './02_input'
+import { input } from './inputs/02_input'
 
 type Theirs = 'A' | 'B' | 'C'
 type Mine = 'X' | 'Y' | 'Z'

@@ -1,4 +1,4 @@
-import { input } from './01_input'
+import { input } from './inputs/01_input'
 import { array as A, number as N, option as O } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 
